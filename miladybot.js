@@ -1,3 +1,5 @@
+console.log("Starting the Milady Bot...");
+
 const TelegramBot = require('node-telegram-bot-api');
 
 // Замените 'ваш_токен' на токен вашего бота, который вы получили от BotFather
