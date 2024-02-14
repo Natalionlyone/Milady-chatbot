@@ -7,12 +7,7 @@
         }
     ],
     "routes": [
-        {
-            "handle": "vercel.json"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "miladybot.js"
-        }
+        { "handle": "error" },
+        { "src": "/(.*)", "dest": "miladybot.js" }
     ]
 }
